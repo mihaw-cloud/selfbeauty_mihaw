@@ -116,7 +116,8 @@ footer{margin-top:28px;font-size:12px;color:var(--sub);text-align:center}
 @media (max-width:640px){.hero{grid-template-columns:1fr}}
 .duo .l{background:var(--glow)}
 .prodimg{display:block;width:100%;border-radius:20px;align-self:center}
-.prodrow{align-items:stretch}
+.prodrow{align-items:stretch;grid-template-columns:240px minmax(0,1fr)}
+@media (max-width:640px){.prodrow{grid-template-columns:1fr}.prodrow .prodimg{max-width:240px}}
 .prodrow>div{display:flex;flex-direction:column}
 .prodrow p:not(.where)+.where{margin-top:auto}
 .ba{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;counter-reset:b;margin:0;padding:0;list-style:none}
@@ -207,7 +208,7 @@ footer{margin-top:28px;font-size:12px;color:var(--sub);text-align:center}
       <div style="--c:var(--glow)">
         <span class="lbl">GLOW ・ うるおい・ツヤ</span>
         <b>ユニコニック<br><span class="ph">グロウフィックスミスト 100ml</span></b>
-        <p><span class="ph">うるおいを与えながら、</span><span class="ph">メイクをキープするミスト。</span><span class="ph">ツヤ感のある仕上がりです。</span><span class="ph">ヴィーガン処方。</span></p>
+        <p><span class="ph">うるおいを与えながら、メイクをキープするミスト。</span><br><span class="ph">ツヤ感のある仕上がりです。ヴィーガン処方。</span></p>
         <p class="where"><b>使い方</b>　<span class="ph">ベースメイク前の仕込みと、</span><span class="ph">メイクの仕上げに</span></p>
       </div>
     </div>
