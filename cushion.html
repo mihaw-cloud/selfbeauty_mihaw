@@ -128,6 +128,9 @@ footer{margin-top:28px;font-size:12px;color:var(--sub);text-align:center}
 .ba q{display:block;background:var(--sky);border-radius:12px;padding:8px 10px;font-size:13.5px;font-weight:700;margin-top:auto;quotes:"「" "」"}
 .ba p{margin-bottom:10px}
 .ba q{min-height:calc(3.6em + 16px);box-sizing:border-box}
+.ba5{grid-template-columns:repeat(3,minmax(0,1fr))}
+.ba5 li:last-child{grid-column:span 2}
+@media (max-width:760px){.ba5 li:last-child{grid-column:auto}}
 @media (max-width:760px){.ba{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:420px){.ba{grid-template-columns:1fr}}
 .shoot{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:14px}
@@ -173,17 +176,18 @@ footer{margin-top:28px;font-size:12px;color:var(--sub);text-align:center}
   <section id="concept" class="panel" aria-labelledby="h-concept">
     <span class="eyebrow">CONCEPT</span>
     <h2 id="h-concept">撮影の流れ｜<br>乾燥しない、うるおい最強コンビ</h2>
-    <div class="banner"><b>POINT</b><br><span class="ph">冒頭は「冬って乾燥がひどくて…」のひとことから。</span><span class="ph">クッションのパフにグロウミストを吹きかけてから塗ると、</span><span class="ph">時間がたっても乾燥しない、うるおったツヤ肌に。</span><span class="ph">この「最強コンビ」の使い方を見せてください。</span></div>
-    <ol class="ba">
-      <li class="key"><span class="k">01 HOOK</span><b><span class="ph">冬の乾燥から</span><span class="ph">始める</span></b><p><span class="ph">乾燥してメイクが浮いた肌や、</span><span class="ph">カサつきが気になる様子をアップで。</span></p><q><span class="ph">冬って乾燥が</span><span class="ph">ひどくて…</span></q></li>
-      <li><span class="k">02 PUFF × MIST</span><b><span class="ph">パフに</span><span class="ph">ミストを</span><span class="ph">シュッ</span></b><p><span class="ph">クッションのパフにグロウミストを吹きかけてから、</span><span class="ph">クッションをとります。</span></p><q><span class="ph">パフに</span><span class="ph">ミストを</span><span class="ph">仕込むのがコツ</span></q></li>
-      <li><span class="k">03 BASE</span><b>ポンポンと叩き込む</b><p><span class="ph">うるおったパフで、</span><span class="ph">肌にポンポンとのせていきます。</span><span class="ph">仕上げにもう一度ミストをシュッ。</span></p><q><span class="ph">仕上げに</span><span class="ph">もう1回ミスト</span></q></li>
-      <li class="key"><span class="k">04 AFTER</span><b><span class="ph">時間が</span><span class="ph">たった肌を</span><span class="ph">見せる</span></b><p><span class="ph">数時間後、</span><span class="ph">01と同じ場所・同じ明るさ・同じ角度で。</span><span class="ph">乾燥せず、</span><span class="ph">うるおいとツヤが続いているところを見せてください。</span></p><q><span class="ph">夕方まで</span><span class="ph">うるおってる</span></q></li>
+    <div class="banner"><b>POINT</b><br><span class="ph">冒頭はカバー力のあるツヤ肌から。</span><span class="ph">クッションはパフにグロウミストを吹きかけてから使い、</span><span class="ph">仕上げにもう一度ミスト。</span><span class="ph">最後はセール情報か、冒頭のツヤ肌をもう一度見せて締めてください。</span></div>
+    <ol class="ba ba5">
+      <li class="key"><span class="k">01 HOOK</span><b>カバー力のあるツヤ肌</b><p><span class="ph">最初に、</span><span class="ph">仕上がったツヤ肌をアップで。</span><span class="ph">カバー力とツヤが分かるように。</span></p><q>冬でも乾燥しないツヤ肌</q></li>
+      <li class="key"><span class="k">02 PUFF × MIST</span><b><span class="ph">パフに</span><span class="ph">ミストを</span><span class="ph">シュッ</span></b><p><span class="ph">クッションを使うときは、</span><span class="ph">パフにグロウミストを吹きかけてからポンポン。</span></p><q><span class="ph">パフに</span><span class="ph">ミストがコツ</span></q></li>
+      <li><span class="k">03 POINT MAKE</span><b>ほかのメイクも</b><p><span class="ph">アイメイク・リップなど、</span><span class="ph">いつものポイントメイクを重ねてください。</span></p><q><span class="ph">いつものメイクを</span><span class="ph">重ねて</span></q></li>
+      <li class="key"><span class="k">04 FINISH</span><b><span class="ph">仕上げに</span><span class="ph">ミスト</span></b><p><span class="ph">メイクの最後に、</span><span class="ph">顔全体にもう一度シュッ。</span></p><q><span class="ph">仕上げに</span><span class="ph">もう1回シュッ</span></q></li>
+      <li><span class="k">05 ENDING</span><b><span class="ph">セール情報で</span><span class="ph">締める</span></b><p><span class="ph">Qoo10メガ割・Amazonブラックフライデーの案内、</span><span class="ph">または01のツヤ肌をもう一度。</span></p><q><span class="ph">メガ割で</span><span class="ph">お得に！</span></q></li>
     </ol>
     <div class="shoot">
-      <div><b>同じ条件で撮る</b>01と04は、同じ場所・同じ照明・同じ距離で。</div>
+      <div><b>ツヤが分かる光で</b>自然光や明るい照明で、ツヤとカバー力が分かるように。</div>
       <div><b>加工しない</b>肌にフィルター・美肌加工はかけないでください。</div>
-      <div><b>時間を入れる</b>「メイク後〇時間」など、経過時間を画面に入れると伝わりやすいです。</div>
+      <div><b>アップで撮る</b>パフにミストを吹きかけるところは、手元が分かる距離で。</div>
     </div>
     <p class="note">※文言は例です。ご自身の言葉で自由に話していただいて大丈夫です。</p>
 
@@ -216,7 +220,7 @@ footer{margin-top:28px;font-size:12px;color:var(--sub);text-align:center}
     <span class="eyebrow">DELIVERABLES</span>
     <h2 id="h-format">投稿内容</h2>
     <div class="rules">
-      <div class="rule"><span class="k">REEL × 1</span><h3>最強コンビのリール</h3><p><span class="ph">上の01〜04を1本にまとめたリール。</span><span class="ph">15〜30秒目安です。</span></p></div>
+      <div class="rule"><span class="k">REEL × 1</span><h3>メイク動画のリール</h3><p><span class="ph">上の01〜05を1本にまとめたリール。</span><span class="ph">15〜30秒目安です。</span></p></div>
       <div class="rule"><span class="k">STORIES · LINK</span><h3>ストーリーズ＋商品リンク</h3><p><span class="ph">リールのシェアと一緒に、</span><span class="ph"><b>Qoo10とAmazonの両方</b>の商品ページのリンクを入れてください。</span><span class="ph">（どちらか片方だけのご案内はNGです）</span></p></div>
       <div class="rule"><span class="k">AS USUAL</span><h3>いつもの雰囲気で</h3><p><span class="ph">台本どおりでなくて大丈夫です。</span><span class="ph">普段の話し方・編集で制作してください。</span></p></div>
       <div class="rule"><span class="k">HONEST</span><h3>正直な感想で</h3><p><span class="ph">実際に使った感想をそのまま。</span><span class="ph">仕上がりの好みなども入れていただくと、より伝わります。</span></p></div>
@@ -271,8 +275,7 @@ https://www.amazon.co.jp/dp/B07SYPHMXL</pre>
     <h2 id="h-ng">注意事項</h2>
     <h3 style="font-size:17px;margin-bottom:8px">撮影・投稿のNG</h3>
     <ul style="margin:0 0 20px;padding-left:1.2em;font-size:14px">
-      <li>ビフォー・アフター写真の加工（明るさ・色・肌の質感を変えること）</li>
-      <li>01と04で、撮影場所・照明・角度を変えること</li>
+      <li>肌の写真・動画の加工（明るさ・色・肌の質感を変えること）</li>
       <li>他ブランドのロゴ・製品名の写り込みや言及</li>
       <li>著作権のない音源（BGM）の使用</li>
       <li>ブランド名・商品名の誤字脱字（セルフビューティー／光彩クッション／グロウフィックスミスト）</li>
