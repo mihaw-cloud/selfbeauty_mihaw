@@ -116,7 +116,8 @@ footer{margin-top:28px;font-size:12px;color:var(--sub);text-align:center}
 @media (max-width:640px){.hero{grid-template-columns:1fr}}
 .duo .l{background:var(--glow)}
 .prodimg{display:block;width:100%;border-radius:20px;align-self:center}
-.prodrow{align-items:stretch}
+.prodrow{align-items:stretch;grid-template-columns:240px minmax(0,1fr)}
+@media (max-width:640px){.prodrow{grid-template-columns:1fr}.prodrow .prodimg{max-width:240px}}
 .prodrow>div{display:flex;flex-direction:column}
 .prodrow p:not(.where)+.where{margin-top:auto}
 .ba{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;counter-reset:b;margin:0;padding:0;list-style:none}
